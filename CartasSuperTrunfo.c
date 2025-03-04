@@ -2,7 +2,7 @@
 #include <string.h> // Para usar strcspn()
 
 int main() {
-    // Declaração das variáveis para a primeira carta
+    // Variáveis para a primeira carta
     char estado1;
     char codigo1[5]; // Tamanho maior para acomodar o código
     char cidade1[50];
@@ -10,7 +10,7 @@ int main() {
     float area1, pib1;
     int pontos_turisticos1;
 
-    // Declaração das variáveis para a segunda carta
+    // Variáveis para a segunda carta
     char estado2;
     char codigo2[5];
     char cidade2[50];
@@ -18,7 +18,7 @@ int main() {
     float area2, pib2;
     int pontos_turisticos2;
 
-    // Leitura dos dados para a primeira carta
+    // Captura de dados primeira carta
     printf("Entre com os dados da primeira carta:\n");
 
     printf("Estado (A-H): ");
@@ -45,7 +45,7 @@ int main() {
     scanf("%d", &pontos_turisticos1);
     getchar(); // Consome o '\n' antes de ler a próxima string
 
-    // Leitura dos dados para a segunda carta
+    // Captura de dados primeira carta
     printf("\nEntre com os dados da segunda carta:\n");
 
     printf("Estado (A-H): ");
