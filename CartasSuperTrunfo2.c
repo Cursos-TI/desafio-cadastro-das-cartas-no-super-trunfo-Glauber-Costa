@@ -2,7 +2,7 @@
 
 int main() {
     // Declaração das variáveis para a primeira carta
-    char estado1 [3]= "CE";
+    char estado1 [4]= "CE";
     char codigo1 [5]= "A01";
     char cidade1 [50]= "FORTALEZA"; 
     int populacao1= 2500000;
@@ -10,7 +10,7 @@ int main() {
     int pontos_turisticos1;
 
     // Declaração das variáveis para a segunda carta
-    char estado2 [3] = "MG";
+    char estado2 [4] = "MG";
     char codigo2[5] ="B02";
     char cidade2[50] = "BELOHORIZONTE";
     int populacao2 = 2300000;
@@ -34,8 +34,8 @@ int main() {
     printf ("Carta de: %s (%s)- %.2f \n",cidade2,estado2, pibpercapita2);
 
     if (pibpercapita1>pibpercapita2){
-        printf ("O VENCEDOR É: %s com pib per capita de %f\n", cidade1, pibpercapita1);
-    } else { printf ("O VENCEDOR É: %s com pib per capita de %f\n", cidade2, pibpercapita2);
+        printf ("O VENCEDOR É: %s com pib per capita de %.2f\n", cidade1, pibpercapita1);
+    } else { printf ("O VENCEDOR É: %s com pib per capita de %.2f\n", cidade2, pibpercapita2);
 
     }
 
